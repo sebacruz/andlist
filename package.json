@@ -1,7 +1,7 @@
 {
   "name": "andlist",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.1.2",
+  "description": "Turns an array of strings into a friendly delimited string separated by commas and an \"and\".",
   "main": "index.js",
   "scripts": {
     "test": "xo index.js && tap test/*.js"
