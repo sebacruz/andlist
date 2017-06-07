@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/.bin/xo index.js"
+    "test": "xo index.js && tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sebacruz/andlist#readme",
   "devDependencies": {
+    "tap": "^10.3.3",
     "xo": "^0.18.2"
   },
   "xo": {
