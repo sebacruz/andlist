@@ -1,0 +1,29 @@
+{
+  "name": "andlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo index.js && tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebacruz/andlist.git"
+  },
+  "keywords": [
+    "lists"
+  ],
+  "author": "Sebastián Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebacruz/andlist/issues"
+  },
+  "homepage": "https://github.com/sebacruz/andlist#readme",
+  "devDependencies": {
+    "tap": "^10.3.3",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true
+  }
+}
