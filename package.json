@@ -3,6 +3,8 @@
   "version": "1.1.2",
   "description": "Turns an array of strings into a friendly delimited string separated by commas and an \"and\".",
   "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "test": "xo index.js && tap test/*.js"
   },

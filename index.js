@@ -7,13 +7,15 @@
  * @param  {String} [and=' and '] Text to put between the next-to-last element and the last element
  * @return {String} The constructed string
  */
-module.exports = function (items = [], separator = ', ', and = ' and ') {
-  const arr = [].concat(items);
-  const last = arr.pop();
+const andlist = (items = [], separator = ', ', and = ' and ') => {
+  const itemsCopy = [...items];
+  const last = itemsCopy.pop();
 
-  if (arr.length === 0) {
+  if (itemsCopy.length === 0) {
     return last;
   }
 
-  return [arr.join(separator), last].join(and);
+  return [itemsCopy.join(separator), last].join(and);
 };
+
+export default andlist;
