@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/sebacruz/andlist#readme",
   "devDependencies": {
-    "tap": "^10.3.3",
-    "xo": "^0.18.2"
+    "tap": "^16.1.0",
+    "xo": "^0.48.0"
   },
   "xo": {
     "space": true

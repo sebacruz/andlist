@@ -1,5 +1,5 @@
-const tap = require('tap');
-const andlist = require('../');
+import tap from 'tap';
+import andlist from '../index.js'
 
 const arr = ['one', 'two', 'three', 'four'];
 
